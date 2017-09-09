@@ -1,1 +1,53 @@
+.container-fluid {
+	padding: 0;
+}
 
+.row {
+	padding: 10px;
+	text-align: center;
+}
+
+#cover {
+  	/* Sets background image, prevent repetition of image, and centers it */
+  	background: url("../img/milkbg.jpg") no-repeat center bottom;
+ 	background-size: cover;
+  	background-attachment: fixed;
+  	height: 800px;
+	position: relative;
+	top: -55px;
+}
+
+#cover-content {
+	background-color: rgba(0,0,0,0.3);
+	color: white;
+	font-size: 30px;
+	width: 70%;
+	position: absolute;
+	margin-top: 25%;
+	margin-left: 16%;
+	top: 220px;
+}
+
+#about-us {
+	background-color: lightblue;
+	padding-right: 10px;
+}
+
+#contact-us {
+	background-color: red;
+	padding: 20px 10px;
+}
+
+h1 {
+  	color: white;
+	font-size: 250%;
+  	text-align: center;
+  	margin: auto;
+}
+
+
+img {
+	/*centers images*/
+	display: block;
+	margin: auto;
+}
